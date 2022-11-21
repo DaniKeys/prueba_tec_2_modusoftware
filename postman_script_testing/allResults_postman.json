@@ -1,0 +1,372 @@
+{
+	"id": "2bfd147f-a10d-47ff-a476-816ca8605092",
+	"name": "Prueba Tecnica 2",
+	"timestamp": "2022-11-19T14:02:37.759Z",
+	"collection_id": "21693474-be804892-2cec-47a3-a167-35defef38fb7",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 34,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "314747cc-77a2-4b0c-911a-5370d5f14a87",
+			"name": "GetAll",
+			"url": "http://127.0.0.1:9092/book",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Validacion de propiedades requeridas de retorno": true,
+				"Validar todos los status": true,
+				"Tiempo de respuesta es menor a 1000ms": true,
+				"Si la respuesta contienen Content-Type ": true,
+				"Validar formato del Content-Type de la respuesta": true,
+				"Validar formato del Content-Type": true
+			},
+			"testPassFailCounts": {
+				"Validacion de propiedades requeridas de retorno": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar todos los status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta es menor a 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Si la respuesta contienen Content-Type ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar formato del Content-Type de la respuesta": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar formato del Content-Type": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Validacion de propiedades requeridas de retorno": true,
+					"Validar todos los status": true,
+					"Tiempo de respuesta es menor a 1000ms": true,
+					"Si la respuesta contienen Content-Type ": true,
+					"Validar formato del Content-Type de la respuesta": true,
+					"Validar formato del Content-Type": true
+				}
+			]
+		},
+		{
+			"id": "9b3aae18-b95c-44b6-96d4-808864e0607c",
+			"name": "GetByBookName",
+			"url": "http://127.0.0.1:9092/book/nombre/Ficciones",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Validacion de propiedades requeridas de retorno": true,
+				"Validar todos los status": true,
+				"Tiempo de respuesta es menor a 1000ms": true,
+				"Si la respuesta contienen Content-Type ": true,
+				"Validar formato del Content-Type de la respuesta": true,
+				"Validar formato del Content-Type": true
+			},
+			"testPassFailCounts": {
+				"Validacion de propiedades requeridas de retorno": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar todos los status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta es menor a 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Si la respuesta contienen Content-Type ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar formato del Content-Type de la respuesta": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar formato del Content-Type": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Validacion de propiedades requeridas de retorno": true,
+					"Validar todos los status": true,
+					"Tiempo de respuesta es menor a 1000ms": true,
+					"Si la respuesta contienen Content-Type ": true,
+					"Validar formato del Content-Type de la respuesta": true,
+					"Validar formato del Content-Type": true
+				}
+			]
+		},
+		{
+			"id": "04481d95-6b6f-4d8a-891e-6a6fadbe0b9c",
+			"name": "CreateBook",
+			"url": "http://127.0.0.1:9092/book",
+			"time": 14,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"Validar todos los status": true,
+				"Tiempo de respuesta es menor a 1000ms": true,
+				"Si la peticion contienen Content-Type ": true,
+				"Validar formato del Content-Type de la peticion": true
+			},
+			"testPassFailCounts": {
+				"Validar todos los status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta es menor a 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Si la peticion contienen Content-Type ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar formato del Content-Type de la peticion": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"Validar todos los status": true,
+					"Tiempo de respuesta es menor a 1000ms": true,
+					"Si la peticion contienen Content-Type ": true,
+					"Validar formato del Content-Type de la peticion": true
+				}
+			]
+		},
+		{
+			"id": "37c5dbf5-f8ee-4990-bcc5-6ec6d7066061",
+			"name": "BuyBook",
+			"url": "http://127.0.0.1:9092/book/buy",
+			"time": 374,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Retorno de solo propiedades requeridas id,nombre,valor": true,
+				"Validar todos los status": true,
+				"Validar tipo de dato": true,
+				"Tiempo de respuesta es menor a 1000ms": true,
+				"Si la peticion y respuesta contienen Content-Type ": true,
+				"Validar formato del Content-Type de peticion y respuesta": true
+			},
+			"testPassFailCounts": {
+				"Retorno de solo propiedades requeridas id,nombre,valor": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar todos los status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar tipo de dato": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta es menor a 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Si la peticion y respuesta contienen Content-Type ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar formato del Content-Type de peticion y respuesta": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				374
+			],
+			"allTests": [
+				{
+					"Retorno de solo propiedades requeridas id,nombre,valor": true,
+					"Validar todos los status": true,
+					"Validar tipo de dato": true,
+					"Tiempo de respuesta es menor a 1000ms": true,
+					"Si la peticion y respuesta contienen Content-Type ": true,
+					"Validar formato del Content-Type de peticion y respuesta": true
+				}
+			]
+		},
+		{
+			"id": "cd62e78e-6e4a-4358-b43b-954b3dd9990a",
+			"name": "UpdateStock",
+			"url": "http://127.0.0.1:9092/book/9",
+			"time": 172,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Retorno de atributos tabla libro": true,
+				"Validar todos los status": true,
+				"Validar tipo de dato": true,
+				"Tiempo de respuesta es menor a 1000ms": true,
+				"Si la peticion y respuesta contienen Content-Type ": true,
+				"Validar formato del Content-Type de peticion y respuesta": true
+			},
+			"testPassFailCounts": {
+				"Retorno de atributos tabla libro": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar todos los status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar tipo de dato": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta es menor a 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Si la peticion y respuesta contienen Content-Type ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar formato del Content-Type de peticion y respuesta": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				172
+			],
+			"allTests": [
+				{
+					"Retorno de atributos tabla libro": true,
+					"Validar todos los status": true,
+					"Validar tipo de dato": true,
+					"Tiempo de respuesta es menor a 1000ms": true,
+					"Si la peticion y respuesta contienen Content-Type ": true,
+					"Validar formato del Content-Type de peticion y respuesta": true
+				}
+			]
+		},
+		{
+			"id": "4cb4d444-a887-41a5-b993-00bc665278f6",
+			"name": "getAllVentas",
+			"url": "http://127.0.0.1:9092/book/allVentas",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Validacion de propiedades requeridas de retorno": true,
+				"Validar todos los status": true,
+				"Tiempo de respuesta es menor a 100ms": true,
+				"Si la respuesta contienen Content-Type ": true,
+				"Validar formato del Content-Type de la respuesta": true,
+				"Validar formato del Content-Type": true
+			},
+			"testPassFailCounts": {
+				"Validacion de propiedades requeridas de retorno": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar todos los status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta es menor a 100ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Si la respuesta contienen Content-Type ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar formato del Content-Type de la respuesta": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar formato del Content-Type": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Validacion de propiedades requeridas de retorno": true,
+					"Validar todos los status": true,
+					"Tiempo de respuesta es menor a 100ms": true,
+					"Si la respuesta contienen Content-Type ": true,
+					"Validar formato del Content-Type de la respuesta": true,
+					"Validar formato del Content-Type": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 605,
+	"collection": {
+		"requests": [
+			{
+				"id": "314747cc-77a2-4b0c-911a-5370d5f14a87",
+				"method": "GET"
+			},
+			{
+				"id": "9b3aae18-b95c-44b6-96d4-808864e0607c",
+				"method": "GET"
+			},
+			{
+				"id": "04481d95-6b6f-4d8a-891e-6a6fadbe0b9c",
+				"method": "POST"
+			},
+			{
+				"id": "37c5dbf5-f8ee-4990-bcc5-6ec6d7066061",
+				"method": "POST"
+			},
+			{
+				"id": "cd62e78e-6e4a-4358-b43b-954b3dd9990a",
+				"method": "PUT"
+			},
+			{
+				"id": "4cb4d444-a887-41a5-b993-00bc665278f6",
+				"method": "GET"
+			}
+		]
+	}
+}

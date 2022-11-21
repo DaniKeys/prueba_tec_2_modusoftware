@@ -28,12 +28,12 @@ http://127.0.0.1:9092/
 
 Ejemplos de Funcionamiento de consultas por **`PATHPARAM`** y **`REQUESTBODY`** tener presente el respectivo `METODO` Y `URL`
 
-![](https://github.com/DaniKeys/prueba_tecnica_2_modusoftaware/blob/main/prueba_tecnica_2/img/getAllRequest.png)
-![](https://github.com/DaniKeys/prueba_tecnica_2_modusoftaware/blob/main/prueba_tecnica_2/img/getAllBookNameRequest.png)
-![](https://github.com/DaniKeys/prueba_tecnica_2_modusoftaware/blob/main/prueba_tecnica_2/img/CreateBookRequest.png)
-![](https://github.com/DaniKeys/prueba_tecnica_2_modusoftaware/blob/main/prueba_tecnica_2/img/UpdateStockRequest.png)
-![](https://github.com/DaniKeys/prueba_tecnica_2_modusoftaware/blob/main/prueba_tecnica_2/img//BuyBookRequest.png)
-![](https://github.com/DaniKeys/prueba_tecnica_2_modusoftaware/blob/main/prueba_tecnica_2/img/getAllVentasRequest.png)
+![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/getAllRequest.png)
+![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/getAllBookNameRequest.png)
+![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/CreateBookRequest.png)
+![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/UpdateStockRequest.png)
+![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/BuyBookRequest.png)
+![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img//getAllVentasRequest.png)
 
 
 ## **Pruebas en POSTMAN**
@@ -51,7 +51,7 @@ En el folder `postman_script_testing` encontrara los scripts de los test copie y
 + Tipo de datod de propiedades
 + Validar que propiedades retorna segun requerimientos de cada metodo de consulta
 
-![](https://github.com/DaniKeys/prueba_tecnica_2_modusoftaware/blob/main/prueba_tecnica_2/img/allTestViewMinimized.png)
+![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/allTestViewMinimized.png)
 
 
 ## **Documentacion Swagger**

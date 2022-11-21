@@ -148,7 +148,7 @@ public class LibroController {
 			 .RequestBody(description = "Agrege a la propiedad stock la cantidad deseada ",
 					 content = @Content(schema = @Schema(implementation = LibroDTO.class), 
 					 mediaType = MediaType.APPLICATION_JSON_VALUE, 
-					 examples = {@ExampleObject(value = "'stock': 5")}),
+					 examples = {@ExampleObject(value = "{\"stock\": 5}")}),
 					 required = true))
 	 @ApiResponses({
 	            @ApiResponse(responseCode = "201",description = "Actualizado",

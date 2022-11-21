@@ -42,7 +42,7 @@ En el folder `postman_script_testing` encontrara los scripts `.js` de los test, 
 ![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/Captura%20desde%202022-11-19%2022-30-26.png)
 >Tambien encontrara un script `.json` con el resultado de los test
 
->Se testeo las consultas con algunas de las aserciones mas comunes de postman
+## Se testeo las consultas con algunas de las aserciones mas comunes de postman
 
 + Validacion de status
 + Tiempo de respuesta de la solicitud

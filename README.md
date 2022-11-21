@@ -38,9 +38,9 @@ Ejemplos de Funcionamiento de consultas por **`PATHPARAM`** y **`REQUESTBODY`** 
 
 ## **Pruebas en POSTMAN**
 
-En el folder `postman_script_testing` encontrara los scripts de los test copie y pegue cada script en su respectiva consulta
+En el folder `postman_script_testing` encontrara los scripts `.js` de los test, copie y pegue cada script en su respectiva consulta
 ![](https://github.com/DaniKeys/prueba_tecnica_2_modusoftaware/blob/main/imagenes_proyecto/Captura%20desde%202022-11-19%2022-30-26.png)
->Tambien encontrara un script con el resultado de los test
+>Tambien encontrara un script `.json` con el resultado de los test
 
 >Se testeo las consultas con algunas de las aserciones mas comunes de postman
 

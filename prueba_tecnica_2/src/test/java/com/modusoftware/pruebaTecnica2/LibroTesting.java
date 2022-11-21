@@ -63,7 +63,7 @@ public class LibroTesting {
 		
 		List<LibroEntity> isbn = this.libroRep.findByISBN("H4325");
 		LibroDTO dto = new LibroDTO();
-		//Como el ISBN es un valor unico, solo obtengo el ISBN del elemento 1 de mi lista
+		//Como el ISBN es un valor unico y solo un registro lo posee, solamente obtengo el ISBN del elemento 1 de mi lista
 		dto.setISBN(isbn.get(0).getISBN());
 		
 		LibroDTO dtoValid = new LibroDTO();

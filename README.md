@@ -56,8 +56,8 @@ En el folder `postman_script_testing` encontrara los scripts `.js` de los test, 
 
 ## **Documentacion Swagger**
 
-En el folder `doc_swagger` encontrara el script de la documentacion para solo lectura copie este script en el editor de Swagger https://editor.swagger.io/
-si quiere ejecutar pruebas de la API REST desde el servidor swagger, despues de levantar la api vaya a su navegador y pegue la siguiente url http://localhost:9092/swagger-ui/index.html
+En el folder `doc_swagger` encontrara el script .`yaml` de la documentacion, Para solo lectura copie este script en el editor de Swagger https://editor.swagger.io/
+si quiere ejecutar pruebas de la API REST desde el servidor swagger, despues de levantar la Api vaya a su navegador y pegue la siguiente url http://localhost:9092/swagger-ui/index.html
 
 >NOTA No altere el valor de dominio como 'localhost'ni lo reemplaze por 127.0.0.1 ya que en la configuración del proyecto esta establecida la anterior URL y el.puerto con su puerto respectivo `9092`
 

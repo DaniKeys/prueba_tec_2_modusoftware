@@ -38,7 +38,7 @@ Ejemplos de Funcionamiento de consultas por **`PATHPARAM`** y **`REQUESTBODY`** 
 
 ## **Pruebas en POSTMAN**
 
-En el folder `postman_script_testing` encontrara el script `.json` con los test de las consultas, ejecute RunCollection en las opciones de la coleccion, selccione ejecute todos los metodos
+En el folder `postman_script_testing` encontrara el script `.json` con los test de las consultas, ejecute RunCollection en las opciones de la coleccion, selccione y ejecute todos los metodos
 
 ![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/runCollection.png)
 ![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/runAllMethod.png)

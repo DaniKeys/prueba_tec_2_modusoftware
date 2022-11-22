@@ -38,8 +38,10 @@ Ejemplos de Funcionamiento de consultas por **`PATHPARAM`** y **`REQUESTBODY`** 
 
 ## **Pruebas en POSTMAN**
 
-En el folder `postman_script_testing` encontrara los scripts `.js` de los test, copie y pegue cada script en su respectiva consulta
-![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/Captura%20desde%202022-11-19%2022-30-26.png)
+En el folder `postman_script_testing` encontrara el script `.json` con los test de las consultas, ejecute RunCollection en las opciones de la coleccion, selccione ejecute todos los metodos
+
+![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/runCollection.png)
+![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/runAllMethod.png)
 >Tambien encontrara un script `.json` con el resultado de los test
 
 ## Se testeo las consultas con algunas de las aserciones mas comunes de postman
@@ -50,8 +52,6 @@ En el folder `postman_script_testing` encontrara los scripts `.js` de los test, 
 + Validar la presencia del ContenType en el request o response segun cada metodo de consula
 + Tipo de datod de propiedades
 + Validar que propiedades retorna segun requerimientos de cada metodo de consulta
-
-![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/allTestViewMinimized.png)
 
 
 ## **Documentacion Swagger**

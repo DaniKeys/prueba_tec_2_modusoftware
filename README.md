@@ -42,6 +42,7 @@ En el folder `postman_script_testing` encontrara el script `.json` con los test 
 
 ![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/runCollection.png)
 ![](https://github.com/DaniKeys/prueba_tec_2_modusoftware/blob/main/prueba_tecnica_2/img/runAllMethod.png)
+
 >Tambien encontrara un script `.json` con el resultado de los test
 
 ## Se testeo las consultas con algunas de las aserciones mas comunes de postman
